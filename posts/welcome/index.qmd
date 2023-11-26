@@ -1,12 +1,12 @@
 ---
-title: Probability theory and random variables
+title: Probability Theory and Random Variables
 author: Hoda Alemrajabi
 date: '2023-11-03'
 categories:
   - news
   - code
   - analysis
-image: first post image.png   
+image: first post image.png
 jupyter:
   jupytext:
     formats: 'qmd:quarto,ipynb'
@@ -23,15 +23,15 @@ jupyter:
 
 This is the first post in the Quarto blog of Hoda Alemrajabi . Welcome!
 
-![](first post image.png){width="366"}
+![](first%20post%20image.png){width="366"}
 
 In this post, I will talk about Probability theory and random variables.
 
 In this topic, one common concept is the visualization of different probability distributions, which are fundamental in understanding random variables. Here's an example where I visualized a Normal (Gaussian) distribution, which is a cornerstone in probability theory and often used in machine learning:
 
-1.  **Generating Random Data**: I used **`numpy`** to generate random data following a normal distribution.
+-   **Generating Random Data**: Using **`numpy`** to generate random data following a normal distribution.
 
-2.  **Visualization**: I used **`matplotlib`** to plot the histogram of this data to visualize the distribution.
+-   **Visualization**: Using **`matplotlib`** to plot the histogram of this data to visualize the distribution.
 
 Here's the Python code to do this:
 

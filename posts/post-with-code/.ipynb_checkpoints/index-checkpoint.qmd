@@ -1,7 +1,7 @@
 ---
-title: Post With Code
+title: Clustering
 author: Hoda Alemrajabi
-date: '2023-11-06'
+date: '2023-11-04'
 categories:
   - news
   - code
@@ -9,7 +9,7 @@ categories:
 image: image.jpg
 jupyter:
   jupytext:
-    formats: 'ipynb,qmd:quarto'
+    formats: 'ipynb,qmd'
     text_representation:
       extension: .qmd
       format_name: quarto
@@ -21,9 +21,42 @@ jupyter:
     name: python3
 ---
 
-This is a post with executable code.
+In this post, I will talk about clustering in ML!
+
+Clustering is a fundamental concept in machine learning, particularly in unsupervised learning. A common method for clustering is the K-Means algorithm. We can visualize clustering by using Python with libraries such as **`matplotlib`** for plotting and **`sklearn`** for machine learning functionalities.
+
+Here's an example of a Python script that generates random data, applies the K-Means clustering algorithm, and visualizes the results:
+
+-   **Generate Random Data**: Creating a dataset with random points.
+
+-   **Apply K-Means Clustering**: Using the K-Means algorithm to identify clusters in the data.
+
+-   **Visualization**: Plotting the data points and color them according to their cluster.
+
+Here's the Python code:
 
 ```{python}
-1 + 1
-```
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+from sklearn.datasets import make_blobs
 
+# Generate random data
+n_samples = 300
+n_features = 2
+centers = 4
+X, y_true = make_blobs(n_samples=n_samples, n_features=n_features, centers=centers)
+
+# Apply K-Means Clustering
+kmeans = KMeans(n_clusters=centers)
+kmeans.fit(X)
+y_kmeans = kmeans.predict(X)
+
+# Visualization
+plt.scatter(X[:, 0], X[:, 1], c=y_kmeans, s=50, cmap='viridis')
+centers = kmeans.cluster_centers_
+plt.scatter(centers[:, 0], centers[:, 1], c='black', s=200, alpha=0.5)
+plt.title('K-Means Clustering')
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.show()
+```
