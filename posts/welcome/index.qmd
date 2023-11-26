@@ -8,6 +8,7 @@ categories:
   - analysis
 jupyter:
   jupytext:
+    formats: 'qmd:quarto,ipynb'
     text_representation:
       extension: .qmd
       format_name: quarto
@@ -21,9 +22,17 @@ jupyter:
 
 This is the first post in the Quarto blog of Hoda Alemrajabi . Welcome!
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnKfUq7-4FStpeW_W8E8YmRXQR7GnX404_A&usqp=CAU)
+![](https://files.oaiusercontent.com/file-78Te8ZCTrKKxP2PAH9UAFu3n?se=2023-11-26T20%3A17%3A50Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D61534028-0f6d-4e7c-8242-7587401982d0.webp&sig=DhJwKsUmWJ08UZZghN8L2%2BqAIci3ShSR/kZpsxz4aNo%3D){width="282"}
 
 In this post, I will talk about Probability theory and random variables.
+
+In this topic, one common concept is the visualization of different probability distributions, which are fundamental in understanding random variables. Here's an example where I visualized a Normal (Gaussian) distribution, which is a cornerstone in probability theory and often used in machine learning:
+
+1.  **Generating Random Data**: I used **`numpy`** to generate random data following a normal distribution.
+
+2.  **Visualization**: I used **`matplotlib`** to plot the histogram of this data to visualize the distribution.
+
+Here's the Python code to do this:
 
 ```{python}
 import numpy as np
@@ -45,3 +54,5 @@ plt.xlabel('Value')
 plt.ylabel('Probability Density')
 plt.show()
 ```
+
+Running this code will give us a graphical representation of a normal distribution, which is an essential concept in probability theory related to random variables. We can modify **`mu`** and **`sigma`** to see how the distribution changes. This kind of visualization is particularly useful in understanding data distributions in machine learning.
