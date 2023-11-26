@@ -1,7 +1,7 @@
 {
-  "hash": "70a6c4d784552fdd9354c710f4032989",
+  "hash": "b84a252e1982a5f2454d5f6ff31f83db",
   "result": {
-    "markdown": "title: \"Post With Code\"\nauthor: \"Hoda Alemrajabi\"\ndate: \"2023-11-06\"\ncache: true\ncategories:\n    -news \n    -code \n    -analysis\nimage: \"image.jpg\"\n\nThis is a post with executable code.\n\n1 + 1\n\n",
+    "markdown": "---\ntitle: Post With Code\nauthor: Hoda Alemrajabi\ndate: '2023-11-06'\ncategories:\n  - news\n  - code\n  - analysis\nimage: image.jpg\n---\n\nThis is a post with executable code.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n2\n```\n:::\n:::\n\n\n",
     "supporting": [
       "index_files"
     ],

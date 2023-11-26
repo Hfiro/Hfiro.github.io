@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Hfiro.github.io",
     "section": "",
-    "text": "Probability theory and random variables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 3, 2023\n\n\nHoda Alemrajabi\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nHoda Alemrajabi\n\n\n\n\n\n\n  \n\n\n\n\nProbability theory and random variables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 3, 2023\n\n\nHoda Alemrajabi\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -23,9 +23,9 @@
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Hfiro.github.io",
+    "title": "Post With Code",
     "section": "",
-    "text": "title: “Post With Code” author: “Hoda Alemrajabi” date: “2023-11-06” cache: true categories: -news -code -analysis image: “image.jpg”\nThis is a post with executable code.\n1 + 1"
+    "text": "This is a post with executable code.\n\n1 + 1\n\n2"
   },
   {
     "objectID": "posts/post-with-code/Untitled.html",

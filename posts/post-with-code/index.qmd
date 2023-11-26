@@ -1,7 +1,15 @@
 ---
+title: Post With Code
+author: Hoda Alemrajabi
+date: '2023-11-06'
+categories:
+  - news
+  - code
+  - analysis
+image: image.jpg
 jupyter:
   jupytext:
-    formats: 'ipynb,qmd'
+    formats: 'ipynb,qmd:quarto'
     text_representation:
       extension: .qmd
       format_name: quarto
@@ -13,16 +21,8 @@ jupyter:
     name: python3
 ---
 
-title: "Post With Code"
-author: "Hoda Alemrajabi"
-date: "2023-11-06"
-cache: true
-categories:
-    -news 
-    -code 
-    -analysis
-image: "image.jpg"
-
 This is a post with executable code.
 
+```{python}
 1 + 1
+```
