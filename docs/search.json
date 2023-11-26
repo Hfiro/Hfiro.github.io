@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Hfiro.github.io",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nProbability theory and random variables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 3, 2023\n\n\nHoda Alemrajabi\n\n\n\n\n\n\nNo matching items"
+    "text": "Probability theory and random variables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 3, 2023\n\n\nHoda Alemrajabi\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -23,8 +23,15 @@
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "Hfiro.github.io",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "title: “Post With Code” author: “Hoda Alemrajabi” date: “2023-11-06” cache: true categories: -news -code -analysis image: “image.jpg”\nThis is a post with executable code.\n1 + 1"
+  },
+  {
+    "objectID": "posts/post-with-code/Untitled.html",
+    "href": "posts/post-with-code/Untitled.html",
+    "title": "Hfiro.github.io",
+    "section": "",
+    "text": "%pip install jupytext\n\nCollecting jupytext\n  Obtaining dependency information for jupytext from https://files.pythonhosted.org/packages/9e/e3/3c5b6cce216d090ed6cf6cc258602f836d050738ac02f97cb71675f9cfe3/jupytext-1.15.2-py3-none-any.whl.metadata\n  Downloading jupytext-1.15.2-py3-none-any.whl.metadata (9.7 kB)\nRequirement already satisfied: nbformat in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupytext) (5.7.0)\nRequirement already satisfied: pyyaml in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupytext) (6.0)\nRequirement already satisfied: toml in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupytext) (0.10.2)\nRequirement already satisfied: markdown-it-py&gt;=1.0.0 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupytext) (2.2.0)\nRequirement already satisfied: mdit-py-plugins in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupytext) (0.3.0)\nRequirement already satisfied: mdurl~=0.1 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from markdown-it-py&gt;=1.0.0-&gt;jupytext) (0.1.0)\nRequirement already satisfied: fastjsonschema in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from nbformat-&gt;jupytext) (2.16.2)\nRequirement already satisfied: jsonschema&gt;=2.6 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from nbformat-&gt;jupytext) (4.17.3)\nRequirement already satisfied: jupyter-core in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from nbformat-&gt;jupytext) (5.3.0)\nRequirement already satisfied: traitlets&gt;=5.1 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from nbformat-&gt;jupytext) (5.7.1)\nRequirement already satisfied: attrs&gt;=17.4.0 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jsonschema&gt;=2.6-&gt;nbformat-&gt;jupytext) (22.1.0)\nRequirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,&gt;=0.14.0 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jsonschema&gt;=2.6-&gt;nbformat-&gt;jupytext) (0.18.0)\nRequirement already satisfied: platformdirs&gt;=2.5 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupyter-core-&gt;nbformat-&gt;jupytext) (2.5.2)\nRequirement already satisfied: pywin32&gt;=300 in c:\\users\\hodaa\\anaconda3\\lib\\site-packages (from jupyter-core-&gt;nbformat-&gt;jupytext) (305.1)\nDownloading jupytext-1.15.2-py3-none-any.whl (307 kB)\n   ---------------------------------------- 0.0/307.2 kB ? eta -:--:--\n   - -------------------------------------- 10.2/307.2 kB ? eta -:--:--\n   - -------------------------------------- 10.2/307.2 kB ? eta -:--:--\n   ------- ------------------------------- 61.4/307.2 kB 409.6 kB/s eta 0:00:01\n   ------------- ------------------------ 112.6/307.2 kB 656.4 kB/s eta 0:00:01\n   --------------------- ---------------- 174.1/307.2 kB 807.1 kB/s eta 0:00:01\n   ------------------------------- ------ 256.0/307.2 kB 983.0 kB/s eta 0:00:01\n   -------------------------------------- 307.2/307.2 kB 999.9 kB/s eta 0:00:00\nInstalling collected packages: jupytext\nSuccessfully installed jupytext-1.15.2\nNote: you may need to restart the kernel to use updated packages."
   }
 ]

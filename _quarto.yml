@@ -12,8 +12,9 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: cosmo
+      dark: darkly
 
 editor: visual
 
