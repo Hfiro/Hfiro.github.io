@@ -24,7 +24,7 @@ jupyter:
 
 This post is about anomaly/outlier detection in ML!
 
-![](fifth post.png){width="366"}
+![](fifth%20post.png){width="366"}
 
 In this post, I created a Python example where we use DBSCAN for anomaly detection. DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm used in machine learning, particularly effective for anomaly or outlier detection due to its ability to find arbitrarily shaped clusters and identify outliers as points that do not belong to any cluster.
 
