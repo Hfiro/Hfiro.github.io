@@ -149,6 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                 <div class="quarto-category">news</div>
                 <div class="quarto-category">code</div>
                 <div class="quarto-category">analysis</div>
+                <div class="quarto-category">data visualization</div>
               </div>
                   </div>
   </div>
@@ -189,8 +190,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>In this post, I will talk about Probability theory and random variables.</p>
 <p>In this topic, one common concept is the visualization of different probability distributions, which are fundamental in understanding random variables. Here’s an example where I visualized a Normal (Gaussian) distribution, which is a cornerstone in probability theory and often used in machine learning:</p>
 <ul>
-<li><p><strong>Generating Random Data</strong>: I used <strong><code>numpy</code></strong> to generate random data following a normal distribution.</p></li>
-<li><p><strong>Visualization</strong>: I used <strong><code>matplotlib</code></strong> to plot the histogram of this data to visualize the distribution.</p></li>
+<li><p><strong>Generating Random Data</strong>: Using <strong><code>numpy</code></strong> to generate random data following a normal distribution.</p></li>
+<li><p><strong>Visualization</strong>: Using <strong><code>matplotlib</code></strong> to plot the histogram of this data to visualize the distribution.</p></li>
 </ul>
 <p>Here’s the Python code to do this:</p>
 <div class="cell" data-execution_count="1">
@@ -213,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Probability Density'</span>)</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="index_files/figure-html/cell-2-output-1.png" width="589" height="449"></p>
+<p><img src="index_files/figure-html/cell-2-output-1.png" width="576" height="449"></p>
 </div>
 </div>
 <p>Running this code will give us a graphical representation of a normal distribution, which is an essential concept in probability theory related to random variables. We can modify <strong><code>mu</code></strong> and <strong><code>sigma</code></strong> to see how the distribution changes. This kind of visualization is particularly useful in understanding data distributions in machine learning.</p>

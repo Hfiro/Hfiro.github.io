@@ -6,6 +6,7 @@ categories:
   - news
   - code
   - analysis
+  - data visualization
 image: first post image.png
 jupyter:
   jupytext:

@@ -6,6 +6,7 @@ categories:
   - news
   - code
   - analysis
+  - data visualization
 image: second post.png
 jupyter:
   jupytext:
@@ -21,11 +22,11 @@ jupyter:
     name: python3
 ---
 
-In this post, I will talk about clustering in ML!
+This post is about clustering in ML!
 
-![](second post.png){width="366"}
+![](second%20post.png){width="366"}
 
-Clustering is a fundamental concept in machine learning, particularly in unsupervised learning. A common method for clustering is the K-Means algorithm. We can visualize clustering by using Python with libraries such as **`matplotlib`** for plotting and **`sklearn`** for machine learning functionalities.
+Clustering is a crucial technique in machine learning, particularly in unsupervised learning. A common method for clustering is the K-Means algorithm. We can visualize clustering by using Python with libraries such as **`matplotlib`** for plotting and **`sklearn`** for machine learning functionalities.
 
 Here's an example of a Python script that generates random data, applies the K-Means clustering algorithm, and visualizes the results:
 
