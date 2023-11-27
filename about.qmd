@@ -15,4 +15,4 @@ about:
       href: https://github.com/Hfiro
 ---
 
-About this blog
+Welcome!
