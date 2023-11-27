@@ -24,7 +24,7 @@ jupyter:
 
 This post is about classification in ML!
 
-![](forth post.png){width="366"}
+![](forth%20post.png){width="366"}
 
 In this post, I talked about Receiver Operating Characteristic (ROC) curve which is an important tool used in classification problems to evaluate the performance of a classifier. I created a Python example to visualize an ROC curve using a simple classification model.
 
