@@ -64,4 +64,4 @@ plt.ylabel('Feature 2')
 plt.show()
 ```
 
-Running this code will give usa visual representation of the clustered data points, showing how K-Means algorithm groups the data into distinct clusters. This is a simple yet effective way to understand the concept of clustering in machine learning.
+Running this code gives us a visual representation of the clustered data points, showing how K-Means algorithm groups the data into distinct clusters. This is a simple yet effective way to understand the concept of clustering in machine learning.

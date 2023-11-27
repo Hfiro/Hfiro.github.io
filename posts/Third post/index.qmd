@@ -80,4 +80,4 @@ plt.legend()
 plt.show()
 ```
 
-Running this code will show us a plot where you can see how linear regression fails to capture the complexity of the data, while the polynomial regression provides a better fit, illustrating the concept of linear and nonlinear regression in machine learning.
+Running this code shows us a plot where you can see how linear regression fails to capture the complexity of the data, while the polynomial regression provides a better fit, illustrating the concept of linear and nonlinear regression in machine learning.

@@ -57,4 +57,4 @@ plt.ylabel('Probability Density')
 plt.show()
 ```
 
-Running this code will give us a graphical representation of a normal distribution, which is an essential concept in probability theory related to random variables. We can modify **`mu`** and **`sigma`** to see how the distribution changes. This kind of visualization is particularly useful in understanding data distributions in machine learning.
+Running this code gives us a graphical representation of a normal distribution, which is an essential concept in probability theory related to random variables. We can modify **`mu`** and **`sigma`** to see how the distribution changes. This kind of visualization is particularly useful in understanding data distributions in machine learning.
